@@ -11,7 +11,7 @@ A focus area for this years edition are end-to-end tool chains and compilation f
 
 ## Program
 
-The workshop will take place on  **Thursday, September 1st, 14:00h - 18:00h GMT+1** (local Belfast time). The workshop will be held in a **hybrid-mode**. Details will be updated here.
+The workshop will take place on  **Thursday, September 1st, 14:00h - 18:00h GMT+1** (local Belfast time). The workshop will be held in a **hybrid mode**, allowing speakers and participants to join on-site or remote. Details will be updated here.
 
 
 | **Time (GMT+1)**| **Title**                                                                                            | **Presenters**                                           |
@@ -48,11 +48,11 @@ More details about FPL 2022 can be found [here](https://fpl.org).
 
 ## Organizers
 
-### Christian Pilato, Politecnico di Milano, Italy
+#### Christian Pilato, Politecnico di Milano, Italy
 
 Christian Pilato is an Assistant Professor at Politecnico di Milano. He was a Post-doc Research Scientist at Columbia University (2013-2016) and USI (2016-2018). He was also a Visiting Researcher at NYU, TU Delft, and Chalmers University of Technology. He has a Ph.D. in Information Technology from Politecnico di Milano (2011). His research interests focus on the design, optimization, and prototyping of heterogeneous system-on-chip architectures and reconfigurable systems, with emphasis on memory and security aspects. Starting from October 2020, he is the Scientific Coordinator of the H2020 EVEREST project. He served as program chair of EUC 2014 and will be the program chair of ICCD 2022. He is also serving in the program committees of many conferences on EDA, CAD, embedded systems, and reconfigurable architectures (DAC, ICCAD, DATE, CASES, ASPDAC, FPL, ICCD, etc.) He is a Senior Member of IEEE and ACM, and a Member of HiPEAC.
 
-### Jeronimo Castrillon, Technische Universität Dresden, Germany
+#### Jeronimo Castrillon, Technische Universität Dresden, Germany
 
 Jeronimo Castrillon is a professor in the Department of Computer Science at the TU Dresden, where he is also affiliated with the Center for Advancing Electronics Dresden (CfAED). He is the head of the Chair for Compiler Construction, with research focus on methodologies, languages, tools and algorithms for programming complex computing systems. He received the Electronics Engineering degree from the Pontificia Bolivariana University in Colombia in 2004, his masters degree from the ALaRI Institute in Switzerland in 2006 and his Ph.D. degree (Dr.-Ing.) with honors from the RWTH Aachen University in Germany in 2013. In 2014, Prof. Castrillon co-founded Silexica GmbH/Inc, a company that provides programming tools for embedded heterogenous architectures, now with Xilinx/AMD.
 
