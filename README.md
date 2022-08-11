@@ -6,7 +6,7 @@ With the slowdown of Moore's law as we know it, the Cloud is resorting to hetero
 
 In this workshop, leading platform providers, designers of development environments, and developers present the state-of-the-art for Cloud FPGA platforms and explore opportunities and directions for future improvements from the developer's point of view. Instead of focusing on the performance and optimization of a specific application, the goal of this workshop is to highlight the challenges, which a Cloud application developer faces when designing, implementing, deploying, scaling and debugging Cloud services on Cloud FPGA platforms. 
 
-A focus area for this years edition are end-to-end tool chains and compilation for heterogeneous platforms. 
+A focus area for this years edition are end-to-end tool chains including compilation as well as the runtime environment for heterogeneous platforms. 
 
 
 ## Program
