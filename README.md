@@ -11,7 +11,7 @@ A focus area for this years edition are end-to-end tool chains and compilation f
 
 ## Program
 
-The workshop will take place on  **Thirsday, September 1st, 14:00h - 18:00h GMT+1** (local Belfast time). The workshop will be held in a **hybrid-mode**. Details will be updated here.
+The workshop will take place on  **Thursday, September 1st, 14:00h - 18:00h GMT+1** (local Belfast time). The workshop will be held in a **hybrid-mode**. Details will be updated here.
 
 
 | **Time (GMT+1)**| **Title**                                                                                            | **Presenters**                                           |
@@ -20,7 +20,7 @@ The workshop will take place on  **Thirsday, September 1st, 14:00h - 18:00h GMT+
 |                 | **Session 1**                                                                                        | **Design time compilation**                            |
 | 14:10           | (talk 1.1)                                                                                           |                                                        |
 | 14:45           | (talk 1.2)                                                                                           |                                                        |
-| 15:20           | (talk 1.3)                                                                                           |                                                        |
+| 15:20           | (talk 13)                                                                                           |                                                        |
 | 15:55           | **Break**                                                                                            |                                                        |
 |                 | **Session 2**                                                                                        | **Run time management**            |
 | 16:10           | (talk 2.1)                                                                                           |                                                        |
@@ -81,8 +81,11 @@ Christian Plessl is Professor for Computer Science of Paderborn University and d
 ## Contact
 
 [Christian Pilato](https://pilato.faculty.polimi.it)
+
 [Jeronimo Castrillon](https://cfaed.tu-dresden.de/ccc-staff-castrillon)
+
 [Burkhard Ringlein](https://researcher.watson.ibm.com/researcher/view.php?person=zurich-NGL)
+
 
 
 
