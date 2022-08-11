@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+<link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+<link rel="icon" type="image/png" href="{{ '/assets/img/favicon-32x32.png' | absolute_url }}" sizes="32x32">
+<link rel="icon" type="image/png" href="{{ '/assets/img/favicon-16x16.png' | absolute_url }}" sizes="16x16">
+</head>
+<body>
+<div class="wrapper">
+	<header>
+		<!--
+		<h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+		<h1>{{ site.title | default: site.github.repository_name }}</h1>
+		-->
+		<h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+
+		{% if site.logo %}
+		<img src="{{site.logo | relative_url}}" alt="Logo" />
+		{% endif %}
+
+		<p>{{ site.description | default: site.github.project_tagline }}</p>
+
+<!--
+		{% if site.github.is_project_page %}
+		<p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
+		{% endif %}
+
+		{% if site.github.is_user_page %}
+		<p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+		{% endif %}
+-->
+
+		<p class="view"><a href="#{{site.anchor1_url}}">{{ site.anchor1_txt }}</a></p>
+		<p class="view"><a href="#{{site.anchor2_url}}">{{ site.anchor2_txt }}</a></p>
+		<p class="view"><a href="#{{site.anchor3_url}}">{{ site.anchor3_txt }}</a></p>
+		
+		<p class="view"><a href="https://fpl.org" target="_blank">FPL 2022</a></p>
+
+	</header>
+	<section>
+
+		{{ content }}
+
+	</section>
+	<footer>
+		<p>
+		{% if site.github.is_project_page %}
+		<small>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</small><br>
+		{% endif %}
+		<small>Hosted on GitHub Pages &mdash; Theme based on <a href="https://github.com/pages-themes/minimal">Minimal</a> by <a href="https://github.com/orderedlist">orderedlist</a></small>
+		</p>
+	</footer>
+</div>
+<script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+</body>
+</html>
