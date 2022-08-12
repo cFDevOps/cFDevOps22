@@ -20,7 +20,7 @@ The workshop will take place on  **Thursday, September 1st, 14:00h - 18:00h GMT+
 |                 | **Session 1**                                                                                        | **Design time compilation**                            |
 | 14:10           | (talk 1.1)                                                                                           |                                                        |
 | 14:45           | (talk 1.2)                                                                                           |                                                        |
-| 15:20           | (talk 13)                                                                                           |                                                        |
+| 15:20           | (talk 1.3)                                                                                           |                                                        |
 | 15:55           | **Break**                                                                                            |                                                        |
 |                 | **Session 2**                                                                                        | **Run time management**            |
 | 16:10           | (talk 2.1)                                                                                           |                                                        |
