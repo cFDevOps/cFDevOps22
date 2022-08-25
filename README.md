@@ -18,12 +18,12 @@ The workshop will take place on  **Thursday, September 1st, 14:00h - 18:00h GMT+
 |:---------------:|:---------------------------------------------------------------------------------------------------- |:-------------------------------------------------------- |
 | 14:00           | Opening                                                                                              | *The Organizers*                                         |
 |                 | **Session 1**                                                                                        | **Design time compilation**                            |
-| 14:10           | (talk 1.1)                                                                                           |                                                        |
-| 14:45           | (talk 1.2)                                                                                           |                                                        |
-| 15:20           | (talk 1.3)                                                                                           |                                                        |
+| 14:10           | Creating reusable MLIR abstractions for heterogeneous systems                                        |  Karl F. A. Friebel, TUD, Germany                       |
+| 14:45           | Automatic Partitioning, Compilation, Deployment & Debugging of CNNs on Cloud FPGAs                   |  Burkhard Ringlein, IBM Europe, Switzerland            |
+| 15:20           | Building a practical and developer friendly FPGA toolchain                                           |  Ulrich Drepper & Ahmed Sanaullah, Redhat Research     |
 | 15:55           | **Break**                                                                                            |                                                        |
 |                 | **Session 2**                                                                                        | **Run time management**            |
-| 16:10           | (talk 2.1)                                                                                           |                                                        |
+| 16:10           | The OmpSs@FPGA framework: developing heterogeneous applications fast and efficiently on FPGA-based clusters | Juan Miguel De Haro Ruiz, BSC, Spain             |
 | 16:45           | (talk 2.2)                                                                                           |                                                        |
 | 17:20           | (talk 2.3)                                                                                           |                                                        |
 | 17:55           | Closing                                                                                              | *The Organizers*                                       |
@@ -39,7 +39,47 @@ More details about FPL 2022 can be found [here](https://fpl.org).
 
 ### Session 1: Design time compilation
 
-(Details will be available soon).
+
+#### Creating reusable MLIR abstractions for heterogeneous systems
+
+by ***Karl F. A. Friebel, TUD, Germany***
+
+**Abstract:**
+MLIR is an LLVM framework for creating reusable compiler abstractions, centered around an extensible IR. Directed at current and future users of MLIR, this talk is about our experiences with MLIR for heterogeneous systems, which receive less attention in the upstream ecosystem. The talk provides insights into concrete design hurdles tool developers face, including those related to MLIR’s rapid evolution. For heterogeneous and reconfigurable systems, additional challenges make it particularly hard to create composable and reusable tool flows on the basis of MLIR. Through our current dialect stack for high-performance reconfigurable systems, we show how to cope with that complexity in MLIR, providing practical DevOps guidelines.
+
+
+#### Automatic Partitioning, Compilation, Deployment & Debugging of CNNs on Cloud FPGAs
+
+by ***Burkhard Ringlein, IBM Europe, Switzerland***
+
+**Abstract:** FPGAs promise to accelerate ML and AI models while also being energy-efficient. However, nowadays DNN-to-FPGA tool chains are cumbersome to use, are limited to specific use cases and devices, and do mostly not support model parallelism using multiple devices. In this talk I will analyze the problems of the state of the art and propose with operation set architectures a concept to overcome these shortcomings. I will also present a prototype implementation, called DOSA, that enables a one-command partitioning, implementation and deployment of DNNs on multiple FPGAs as well as it's debugging features.
+
+(Speaker Bio see below)
+
+
+####  Building a practical and developer friendly FPGA toolchain
+
+by ***Ulrich Drepper & Ahmed Sanaullah, Redhat Research***
+
+**Abstract:** Modern FPGA tooling is currently decades behind CPU tooling in terms of development and deployment support for workloads. A prerequisite for productivity on FPGAs is not just hardware expertise, but substantial amounts of it - thus making it inaccessible to a majority of developers, especially software developers. How do we bridge this massive gap between CPU support and FPGA support? Through leveraging the power of open source, machine learning and the tried and tested techniques of CPU tooling of course. In this talk, we give an overview of our ongoing projects aimed at building a practical and developer friendly FPGA toolchain. These projects include High Level Synthesis, Hardware Operating Systems, Place and Route, programming and runtime support, RTL simulation, and on-chip debugging.
+
+**Speaker Bios:**
+Ulrich Drepper is a Distinguished Engineer at Red Hat, working as part of the Red Hat Research team and concentrating on developing new technologies for high-performance computing (and machine learning specifically), mostly in collaboration with university groups. His main interests are in the areas of low-level technologies like machine and processor architectures, programming language, compilers, high-performance and low-latency computing. In addition he is interested in using statistics and machine learning for performance analysis of programs and security of application and OS environments.
+
+Ahmed Sanaullah is a Senior Data Scientist at Red Hat, working as part of the Red Hat Research team. His current focus is on building open source tooling for Field Programmable Gate Arrays that enables developers to easily and efficiently create custom hardware solutions, regardless of prior hardware development expertise. He received his PhD in Computer Engineering from Boston University in 2019, where he was given the Outstanding CE Dissertation Award for his research on High Level Synthesis and Hardware Operating Systems.
+
+
+#### The OmpSs@FPGA framework: developing heterogeneous applications fast and efficiently on FPGA-based clusters
+
+by ***Juan Miguel De Haro Ruiz, BSC, Spain***
+
+**Abstract:** t.b.a.
+
+**Speaker Bio:**
+
+Juan Miguel de Haro Ruiz received his BS degree in Informatics Engineering in 2018 and MS degree specialized in High Performance Computing in 2020 from Universitat Politècnica de Catalunya (UPC). He is a Ph.D. student at the Computer Architecture Department of UPC. He also works with the OmpSs@FPGA team and in the Designing RISC-V-based Accelerators for next generation Computers (DRAC) project at the Barcelona Supercomputing Center (BSC). In the OmpSs@FPGA framework, his work is focused on the hardware runtimes and accelerators implemented on the FPGA, as well as the communication between FPGAs.
+
+
 
 ### Session 2: Run time management
 
