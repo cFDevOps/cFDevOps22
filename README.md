@@ -69,6 +69,9 @@ Ulrich Drepper is a Distinguished Engineer at Red Hat, working as part of the Re
 Ahmed Sanaullah is a Senior Data Scientist at Red Hat, working as part of the Red Hat Research team. His current focus is on building open source tooling for Field Programmable Gate Arrays that enables developers to easily and efficiently create custom hardware solutions, regardless of prior hardware development expertise. He received his PhD in Computer Engineering from Boston University in 2019, where he was given the Outstanding CE Dissertation Award for his research on High Level Synthesis and Hardware Operating Systems.
 
 
+### Session 2: Run time management
+
+
 #### The OmpSs@FPGA framework: developing heterogeneous applications fast and efficiently on FPGA-based clusters
 
 by ***Juan Miguel De Haro Ruiz, BSC, Spain***
@@ -80,10 +83,7 @@ by ***Juan Miguel De Haro Ruiz, BSC, Spain***
 Juan Miguel de Haro Ruiz received his BS degree in Informatics Engineering in 2018 and MS degree specialized in High Performance Computing in 2020 from Universitat Politècnica de Catalunya (UPC). He is a Ph.D. student at the Computer Architecture Department of UPC. He also works with the OmpSs@FPGA team and in the Designing RISC-V-based Accelerators for next generation Computers (DRAC) project at the Barcelona Supercomputing Center (BSC). In the OmpSs@FPGA framework, his work is focused on the hardware runtimes and accelerators implemented on the FPGA, as well as the communication between FPGAs.
 
 
-
-### Session 2: Run time management
-
-(Details will be available soon).
+(Further details will be available soon).
 
 
 ## Organizers
