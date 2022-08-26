@@ -18,13 +18,13 @@ The workshop will take place on  **Thursday, September 1st, 14:00h - 17:30h GMT+
 |:---------------:|:---------------------------------------------------------------------------------------------------- |:-------------------------------------------------------- |
 | 14:00           | Opening                                                                                              | *The Organizers*                                         |
 |                 | **Session 1**                                                                                        | **Design time compilation**                            |
-| 14:10           | Creating reusable MLIR abstractions for heterogeneous systems                                        |  Karl F. A. Friebel, TUD, Germany                       |
-| 14:45           | Automatic Partitioning, Compilation, Deployment & Debugging of CNNs on Cloud FPGAs                   |  Burkhard Ringlein, IBM Europe, Switzerland            |
-| 15:20           | Building a practical and developer friendly FPGA toolchain                                           |  Ulrich Drepper & Ahmed Sanaullah, Redhat Research     |
+| 14:10           | Creating reusable MLIR abstractions for heterogeneous systems                                        |  Karl F. A. Friebel, Technical University Dresden       |
+| 14:45           | Automatic Partitioning, Compilation, Deployment & Debugging of CNNs on Cloud FPGAs                   |  Burkhard Ringlein, IBM Research Europe                 |
+| 15:20           | Building a practical and developer friendly FPGA toolchain                                           |  Ulrich Drepper & Ahmed Sanaullah, Redhat Research      |
 | 15:55           | **Break**                                                                                            |                                                        |
 |                 | **Session 2**                                                                                        | **Run time management**            |
-| 16:10           | The OmpSs@FPGA framework: developing heterogeneous applications fast and efficiently on FPGA-based clusters | Juan Miguel De Haro Ruiz, BSC, Spain             |
-| 16:45           | Runtimes for FPGAs -- Why and How                                                                    | Dirk Koch, Universität Heidelberg, Germany              |
+| 16:10           | The OmpSs@FPGA framework: developing heterogeneous applications fast and efficiently on FPGA-based clusters | Juan Miguel De Haro Ruiz, Barcelona Supercomputing Center  |
+| 16:45           | Runtimes for FPGAs -- Why and How                                                                    | Dirk Koch, Universität Heidelberg                    |
 | 17:20           | Closing                                                                                              | *The Organizers*                                       |
 
 ## Registration
@@ -41,7 +41,7 @@ More details about FPL 2022 can be found [here](https://fpl.org).
 
 #### Creating reusable MLIR abstractions for heterogeneous systems
 
-by ***Karl F. A. Friebel, TUD, Germany***
+by ***Karl F. A. Friebel, Technical University Dresden, Germany***
 
 **Abstract:**
 MLIR is an LLVM framework for creating reusable compiler abstractions, centered around an extensible IR. Directed at current and future users of MLIR, this talk is about our experiences with MLIR for heterogeneous systems, which receive less attention in the upstream ecosystem. The talk provides insights into concrete design hurdles tool developers face, including those related to MLIR’s rapid evolution. For heterogeneous and reconfigurable systems, additional challenges make it particularly hard to create composable and reusable tool flows on the basis of MLIR. Through our current dialect stack for high-performance reconfigurable systems, we show how to cope with that complexity in MLIR, providing practical DevOps guidelines.
@@ -49,7 +49,7 @@ MLIR is an LLVM framework for creating reusable compiler abstractions, centered 
 
 #### Automatic Partitioning, Compilation, Deployment & Debugging of CNNs on Cloud FPGAs
 
-by ***Burkhard Ringlein, IBM Europe, Switzerland***
+by ***Burkhard Ringlein, IBM Research Europe, Switzerland***
 
 **Abstract:** FPGAs promise to accelerate ML and AI models while also being energy-efficient. However, nowadays DNN-to-FPGA tool chains are cumbersome to use, are limited to specific use cases and devices, and do mostly not support model parallelism using multiple devices. In this talk I will analyze the problems of the state of the art and propose with operation set architectures a concept to overcome these shortcomings. I will also present a prototype implementation, called DOSA, that enables a one-command partitioning, implementation and deployment of DNNs on multiple FPGAs as well as it's debugging features.
 
@@ -73,7 +73,7 @@ Ahmed Sanaullah is a Senior Data Scientist at Red Hat, working as part of the Re
 
 #### The OmpSs@FPGA framework: developing heterogeneous applications fast and efficiently on FPGA-based clusters
 
-by ***Juan Miguel De Haro Ruiz, BSC, Spain***
+by ***Juan Miguel De Haro Ruiz, Barcelona Supercomputing Center, Spain***
 
 **Abstract:** t.b.a.
 
