@@ -11,7 +11,7 @@ A focus area for this years edition are end-to-end tool chains including compila
 
 ## Program
 
-The workshop will take place on  **Thursday, September 1st, 14:00h - 17:30h GMT+1** (local Belfast time). The workshop will be held in a **hybrid mode**, allowing speakers and participants to join on-site or remote. Details will be updated here.
+The workshop will take place on  **Thursday, September 1st, 14:00h - 17:30h GMT+1** (local Belfast time) in **[3.016, Ashby Building, QUB](https://fpl.org/workshopdevops/#venue-3016-ashby-building-qub)**. The workshop will be held in a **hybrid mode**, allowing speakers and participants to join on-site or remote.
 
 
 | **Time (GMT+1)**| **Title**                                                                                            | **Presenters**                                           |
