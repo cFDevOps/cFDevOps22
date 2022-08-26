@@ -11,7 +11,7 @@ A focus area for this years edition are end-to-end tool chains including compila
 
 ## Program
 
-The workshop will take place on  **Thursday, September 1st, 14:00h - 18:00h GMT+1** (local Belfast time). The workshop will be held in a **hybrid mode**, allowing speakers and participants to join on-site or remote. Details will be updated here.
+The workshop will take place on  **Thursday, September 1st, 14:00h - 17:30h GMT+1** (local Belfast time). The workshop will be held in a **hybrid mode**, allowing speakers and participants to join on-site or remote. Details will be updated here.
 
 
 | **Time (GMT+1)**| **Title**                                                                                            | **Presenters**                                           |
@@ -24,9 +24,8 @@ The workshop will take place on  **Thursday, September 1st, 14:00h - 18:00h GMT+
 | 15:55           | **Break**                                                                                            |                                                        |
 |                 | **Session 2**                                                                                        | **Run time management**            |
 | 16:10           | The OmpSs@FPGA framework: developing heterogeneous applications fast and efficiently on FPGA-based clusters | Juan Miguel De Haro Ruiz, BSC, Spain             |
-| 16:45           | (talk 2.2)                                                                                           |                                                        |
-| 17:20           | (talk 2.3)                                                                                           |                                                        |
-| 17:55           | Closing                                                                                              | *The Organizers*                                       |
+| 16:45           | Runtimes for FPGAs -- Why and How                                                                    | Dirk Koch, Universität Heidelberg, Germany              |
+| 17:20           | Closing                                                                                              | *The Organizers*                                       |
 
 ## Registration
 
@@ -83,7 +82,11 @@ by ***Juan Miguel De Haro Ruiz, BSC, Spain***
 Juan Miguel de Haro Ruiz received his BS degree in Informatics Engineering in 2018 and MS degree specialized in High Performance Computing in 2020 from Universitat Politècnica de Catalunya (UPC). He is a Ph.D. student at the Computer Architecture Department of UPC. He also works with the OmpSs@FPGA team and in the Designing RISC-V-based Accelerators for next generation Computers (DRAC) project at the Barcelona Supercomputing Center (BSC). In the OmpSs@FPGA framework, his work is focused on the hardware runtimes and accelerators implemented on the FPGA, as well as the communication between FPGAs.
 
 
-(Further details will be available soon).
+#### Runtimes for FPGAs -- Why and How
+
+by ***Prof. Dirk Koch, Universität Heidelberg, Germany***
+
+**Abstract:** t.b.a.
 
 
 ## Organizers
