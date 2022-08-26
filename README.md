@@ -19,7 +19,7 @@ The workshop will take place on  **Thursday, September 1st, 14:00h - 17:30h GMT+
 | 14:00           | Opening                                                                                              | *The Organizers*                                         |
 |                 | **Session 1**                                                                                        | **Design time compilation**                            |
 | 14:10           | Creating reusable MLIR abstractions for heterogeneous systems                                        |  Karl F. A. Friebel, Technical University Dresden       |
-| 14:45           | Automatic Partitioning, Compilation, Deployment & Debugging of CNNs on Cloud FPGAs                   |  Burkhard Ringlein, IBM Research Europe                 |
+| 14:45           | Automatic Compilation, Deployment & Debugging of DNNs on Cloud FPGAs                                 |  Burkhard Ringlein, IBM Research Europe                 |
 | 15:20           | Building a practical and developer friendly FPGA toolchain                                           |  Ulrich Drepper & Ahmed Sanaullah, Redhat Research      |
 | 15:55           | **Break**                                                                                            |                                                        |
 |                 | **Session 2**                                                                                        | **Run time management**            |
@@ -47,11 +47,11 @@ by ***Karl F. A. Friebel, Technical University Dresden, Germany***
 MLIR is an LLVM framework for creating reusable compiler abstractions, centered around an extensible IR. Directed at current and future users of MLIR, this talk is about our experiences with MLIR for heterogeneous systems, which receive less attention in the upstream ecosystem. The talk provides insights into concrete design hurdles tool developers face, including those related to MLIR’s rapid evolution. For heterogeneous and reconfigurable systems, additional challenges make it particularly hard to create composable and reusable tool flows on the basis of MLIR. Through our current dialect stack for high-performance reconfigurable systems, we show how to cope with that complexity in MLIR, providing practical DevOps guidelines.
 
 
-#### Automatic Partitioning, Compilation, Deployment & Debugging of CNNs on Cloud FPGAs
+#### Automatic Compilation, Deployment & Debugging of DNNs on Cloud FPGAs
 
 by ***Burkhard Ringlein, IBM Research Europe, Switzerland***
 
-**Abstract:** FPGAs promise to accelerate ML and AI models while also being energy-efficient. However, nowadays DNN-to-FPGA tool chains are cumbersome to use, are limited to specific use cases and devices, and do mostly not support model parallelism using multiple devices. In this talk I will analyze the problems of the state of the art and propose with operation set architectures a concept to overcome these shortcomings. I will also present a prototype implementation, called DOSA, that enables a one-command partitioning, implementation and deployment of DNNs on multiple FPGAs as well as it's debugging features.
+**Abstract:** FPGAs promise to accelerate ML and AI models while also being energy-efficient. However, nowadays DNN-to-FPGA tool chains are cumbersome to use, are limited to specific use cases and devices, and do mostly not support model parallelism using multiple devices. In this talk I will analyze the problems and blind spots of the state of the art and propose the practical solutions the cloudFPGA team in Zurich developed. I will also present a prototype implementation, called DOSA, that enables a one-command partitioning, implementation and deployment of DNNs on multiple FPGAs as well as it's debugging features.
 
 (Speaker Bio see below)
 
