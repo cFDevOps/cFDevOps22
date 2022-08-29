@@ -62,9 +62,10 @@ by ***Ulrich Drepper & Ahmed Sanaullah, Redhat Research***
 
 **Abstract:** Modern FPGA tooling is currently decades behind CPU tooling in terms of development and deployment support for workloads. A prerequisite for productivity on FPGAs is not just hardware expertise, but substantial amounts of it - thus making it inaccessible to a majority of developers, especially software developers. How do we bridge this massive gap between CPU support and FPGA support? Through leveraging the power of open source, machine learning and the tried and tested techniques of CPU tooling of course. In this talk, we give an overview of our ongoing projects aimed at building a practical and developer friendly FPGA toolchain. These projects include High Level Synthesis, Hardware Operating Systems, Place and Route, programming and runtime support, RTL simulation, and on-chip debugging.
 
-**Speaker Bios:**
+**Speaker Bio:**
 Ulrich Drepper is a Distinguished Engineer at Red Hat, working as part of the Red Hat Research team and concentrating on developing new technologies for high-performance computing (and machine learning specifically), mostly in collaboration with university groups. His main interests are in the areas of low-level technologies like machine and processor architectures, programming language, compilers, high-performance and low-latency computing. In addition he is interested in using statistics and machine learning for performance analysis of programs and security of application and OS environments.
 
+**Speaker Bio:**
 Ahmed Sanaullah is a Senior Data Scientist at Red Hat, working as part of the Red Hat Research team. His current focus is on building open source tooling for Field Programmable Gate Arrays that enables developers to easily and efficiently create custom hardware solutions, regardless of prior hardware development expertise. He received his PhD in Computer Engineering from Boston University in 2019, where he was given the Outstanding CE Dissertation Award for his research on High Level Synthesis and Hardware Operating Systems.
 
 
@@ -75,10 +76,10 @@ Ahmed Sanaullah is a Senior Data Scientist at Red Hat, working as part of the Re
 
 by ***Juan Miguel De Haro Ruiz, Barcelona Supercomputing Center, Spain***
 
-**Abstract:** t.b.a.
+**Abstract:** 
+In this talk I will present OmpSs@FPGA, a framework based on a task-based programming model and High-Level Synthesis to achieve hardware acceleration of C/C++ code on FPGA devices. It was initially designed to work on single FPGA systems, but we decided to extend it to allow simple programming of FPGA clusters. I will show the challenges that we faced and how we solved them, as well as how we implemented the extended framework for the IBM cloudFPGA project. Finally, I will show how we deploy applications on the cloudFPGA cluster and some performance results
 
 **Speaker Bio:**
-
 Juan Miguel de Haro Ruiz received his BS degree in Informatics Engineering in 2018 and MS degree specialized in High Performance Computing in 2020 from Universitat Politècnica de Catalunya (UPC). He is a Ph.D. student at the Computer Architecture Department of UPC. He also works with the OmpSs@FPGA team and in the Designing RISC-V-based Accelerators for next generation Computers (DRAC) project at the Barcelona Supercomputing Center (BSC). In the OmpSs@FPGA framework, his work is focused on the hardware runtimes and accelerators implemented on the FPGA, as well as the communication between FPGAs.
 
 
@@ -86,7 +87,6 @@ Juan Miguel de Haro Ruiz received his BS degree in Informatics Engineering in 20
 
 by ***Prof. Dirk Koch, Universität Heidelberg, Germany***
 
-**Abstract:** t.b.a.
 
 
 ## Organizers
