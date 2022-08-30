@@ -87,6 +87,11 @@ Juan Miguel de Haro Ruiz received his BS degree in Informatics Engineering in 20
 
 by ***Prof. Dirk Koch, Universität Heidelberg, Germany***
 
+**Abstract:** 
+This talk will discuss the shortcomings of present methods for integrating runtime reconfigurable accelerators into FPGAs. For instance, AWS F1 instances integrate accelerators using the Xilinx partial design flow method that induces a dependency on the accelerator modules such that an update of the shell requires a physical reimplementation of the accelerators even those have not changed. To overcome these shortcomings this talk will introduce the FOS (FPGA Operating System) which provides a full framework supporting IP, compile scripts for implementing relocatable accelerator modules, a bitstream manipulation tool to relocate modules, a runtime system, and interfaces/APIs to interact with the different hardware and software components. The runtime can execute monolithic accelerators, like generators implemented in OpenCL or with HLS, as well as assemble dynamic stream processing pipelines by stitching together relocatable operators at bitstream level. The approach will be demonstrated on SQL database acceleration where an FPGA is composing optimized query accelerators on-the-fly. In this system, partial FPGA configuration is inferred transparently for the user just by requesting some SQL queries. Here, the runtime will compile the queries, manage the configuration and initialization of modules, and orchestrates the whole operation of the execution.
+
+**Speaker Bio:**
+Dirk Koch is with Heidelberg University Germany and the University of Manchester. His main research interests include run-time reconfigurable systems based on FPGAs, embedded systems, computer architecture, VLSI and hardware security. Dirk’s group developed techniques and the GoAhead tool for implementing self-adaptive distributed embedded control systems based on FPGAs. Current research projects include database acceleration using FPGAs-based stream processing, HPC, and using FPGAs in datacenters. Moreover, his groups maintain the FABulous open-source embedded FPGA generation framework, which was used to design several FPGA chips. Dirk Koch is the author of the book “Partial Reconfiguration on FPGAs” and a co-editor of the book “FPGAs for Software Programmers”.
 
 
 ## Organizers
