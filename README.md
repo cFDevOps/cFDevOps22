@@ -51,6 +51,8 @@ MLIR is an LLVM framework for creating reusable compiler abstractions, centered 
 
 by ***Burkhard Ringlein, IBM Research Europe, Switzerland***
 
+[[Slides](./slides/2022-09-01_cFDevOps3_Ringlein_pub.pdf)]
+
 **Abstract:** FPGAs promise to accelerate ML and AI models while also being energy-efficient. However, nowadays DNN-to-FPGA tool chains are cumbersome to use, are limited to specific use cases and devices, and do mostly not support model parallelism using multiple devices. In this talk I will analyze the problems and blind spots of the state of the art and propose the practical solutions the cloudFPGA team in Zurich developed. I will also present a prototype implementation, called DOSA, that enables a one-command partitioning, implementation and deployment of DNNs on multiple FPGAs as well as it's debugging features.
 
 (Speaker Bio see below)
